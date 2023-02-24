@@ -11,6 +11,7 @@
 		B50359AF29A8E73B00832023 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50359AE29A8E73B00832023 /* ContentView.swift */; };
 		B50359B129A8E73C00832023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50359B029A8E73C00832023 /* Assets.xcassets */; };
 		B50359B529A8E73C00832023 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50359B429A8E73C00832023 /* Preview Assets.xcassets */; };
+		B50359C329A8E8A500832023 /* FeaturePackage in Frameworks */ = {isa = PBXBuildFile; productRef = B50359C229A8E8A500832023 /* FeaturePackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B50359C329A8E8A500832023 /* FeaturePackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +40,7 @@
 			children = (
 				B50359AB29A8E73B00832023 /* IsolatedFeatureProject */,
 				B50359AA29A8E73B00832023 /* Products */,
+				B50359C129A8E8A500832023 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +72,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B50359C129A8E8A500832023 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,6 +95,9 @@
 			dependencies = (
 			);
 			name = IsolatedFeatureProject;
+			packageProductDependencies = (
+				B50359C229A8E8A500832023 /* FeaturePackage */,
+			);
 			productName = IsolatedFeatureProject;
 			productReference = B50359A929A8E73B00832023 /* IsolatedFeatureProject.app */;
 			productType = "com.apple.product-type.application";
@@ -354,6 +367,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B50359C229A8E8A500832023 /* FeaturePackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FeaturePackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B50359A129A8E73B00832023 /* Project object */;
 }

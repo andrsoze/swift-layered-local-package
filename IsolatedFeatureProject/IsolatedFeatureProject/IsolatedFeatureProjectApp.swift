@@ -5,6 +5,7 @@
 //  Created by Anders Persson on 24.02.23.
 //
 
+import FeaturePackage
 import SwiftUI
 
 @main
@@ -14,4 +15,8 @@ struct IsolatedFeatureProjectApp: App {
             ContentView()
         }
     }
+}
+
+struct FeatureContainer {
+    var featureA: FeatureA
 }

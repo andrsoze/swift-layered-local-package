@@ -1,6 +1,6 @@
 import CoreLocal
 import Foundation
 
-struct FeatureA {
-    var coreType: CoreType
+public struct FeatureA {
+    public var coreType: CoreType
 }
